@@ -112,7 +112,14 @@ h2 {
     background-size: 180px 180px;
 }
 
-#contato {
+#contato {)
+
+    diminuiFonteBotao.addEventListener('click', function(){
+        tamanhoAtualFonte -= 0.1;
+        document.body.style.fontSize = `${tamanhoAtualFonte}rem`
+
+    })
+    })
     background-image: url('img/4965007.jpg');
     background-size: cover;
     padding: 4rem 0;
